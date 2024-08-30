@@ -38,15 +38,40 @@
 
 // Ejercicio 6: Validación de Login
 // Crea un programa que verifique si un nombre de usuario y una contraseña coinciden con valores predefinidos usando && para comparar ambas condiciones.
+// let username = prompt("Escriba el nombre de usuario") //"user1234"
+// let password =  prompt("Escriba el contraseña")//"password1234"
+
+// username === "user1234" && password === "password1234" ? alert("Bienvenido " + username) : alert("Datos incorrectos")
+
 
 // Ejercicio 7: Clima y Actividad
 // Escribe un programa que sugiera una actividad (como "ir a la playa", "ver una película") basada en las condiciones climáticas. Usa || para permitir múltiples condiciones.
 
 // Ejercicio 8: Evaluación de Calificaciones
-// Crea un programa que tome dos calificaciones y determine si una persona ha aprobado el curso. Usa || para aprobar si una de las dos calificaciones es suficiente.
+// Crea un programa que tome dos calificaciones y determine si una persona ha aprobado el curso. Usa || para aprobar si una de las dos calificaciones es suficiente. (Se aprueba con 60/100)
+
+// let calificaciónUno = 50
+// let calificaciónDos = 60
+
+// calificaciónUno >= 60 || calificaciónDos >= 60  ? alert("ha aprobado el curso.")  : alert("no ha aprobado el curso.")
+
 
 // Ejercicio 9: Comparación de Tres Números
 // Escribe un programa que tome tres números y determine cuál es el mayor usando if, else if, y operadores de comparación.
+
+let a = 50
+let b = 10
+let c = 7
+
+if (a > b && a > c){
+    console.log(`${a} es el mayor`)
+} else if (b > a && b > c){
+    console.log(`${b} es el mayor`)
+} else {
+    console.log(`${c} es el mayor`)
+}
+
+
 
 // Ejercicio 10: Acceso a Descuentos
 // Escribe un programa que determine si una persona es elegible para un descuento basado en su edad o si tiene una membresía. Usa || para evaluar las dos condiciones.
