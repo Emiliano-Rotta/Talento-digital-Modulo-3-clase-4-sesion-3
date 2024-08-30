@@ -60,13 +60,17 @@
 // Escribe un programa que tome tres números y determine cuál es el mayor usando if, else if, y operadores de comparación.
 
 let a = 50
-let b = 10
-let c = 7
+let b = 50
+let c = 8
 
 if (a > b && a > c){
     console.log(`${a} es el mayor`)
 } else if (b > a && b > c){
     console.log(`${b} es el mayor`)
+} else if (b > a && b > c){
+    console.log(`${b} es el mayor`)
+} else if(a === b || b === c || a === c){ // en el caso de que haya numeros repetidos
+    console.log(`Hay numeros repetidos y no se pueden comparar ${a} ${b} ${c}`)
 } else {
     console.log(`${c} es el mayor`)
 }
